@@ -1,5 +1,4 @@
-#  [![Build Status](https://api.travis-ci.org/cleberdantas/atf.svg)](http://travis-ci.org/cleberdantas/atf)
-[![NPM Version](http://img.shields.io/npm/v/atf.svg?style=flat)](https://www.npmjs.org/package/atf)
+#  [![Build Status](https://api.travis-ci.org/cleberdantas/atf.svg)](http://travis-ci.org/cleberdantas/atf)[![NPM Version](http://img.shields.io/npm/v/atf.svg?style=flat)](https://www.npmjs.org/package/atf)
 
 atf (above-the-fold) prints out above-the-fold css for whatever site you want.
 
