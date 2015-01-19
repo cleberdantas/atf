@@ -6,14 +6,13 @@
 ## Install
 
 ```sh
-$ npm install --save atf
+$ npm install --global atf
 ```
 
 
 ## Usage
 
 ```sh
-$ npm install --global atf
 $ atf --help
 ```
 

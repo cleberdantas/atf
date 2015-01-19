@@ -1,6 +1,6 @@
 {
   "name": "atf",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "atf (above-the-fold) prints out above-the-fold css for whatever site you want.",
   "author": {
     "name": "Cleber Dantas",
@@ -11,13 +11,15 @@
   "license": "MIT",
   "files": [
     "index.js",
-    "cli.js"
+    "cli.js",
+    "criticalCss.js" 
   ],
   "keywords": [
     "above-the-fold-phantomjs",
     "above-the-fold",
     "webperf",
-    "critical-path"
+    "critical-path",
+    "critical css"
   ],
   "dependencies": {
     "meow": "^2.0.0",

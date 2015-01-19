@@ -8,11 +8,11 @@ phantom.create(function(ph) {
   return ph.createPage(function(page) {
     return page.open(url, function(status) {
       console.log("opened site? ", status);         
-            page.injectJs('criticalCss.js', function() {
+            page.injectJs('https://raw.githubusercontent.com/cleberdantas/atf/master/criticalCss.js', function() {
                  setTimeout(function() {
                     return page.evaluate(function() {  
 
-                        return printAboveTheFoldCss(100);
+                        return printAboveTheFoldCss();
                     }, function(result) {
                         console.log(result);
                         ph.exit();
