@@ -8,6 +8,13 @@ It uses the CriticalCSS snippet from Paul Kinlan with some tiny modifications on
 
 
 ## Install
+First, make sure PhantomJS is installed. This module expects the phantomjs binary to be in PATH somewhere. In other words, type this:
+
+```sh
+$ phantomjs
+```
+
+If that works you are good to go.
 
 ```sh
 $ npm install --global atf
