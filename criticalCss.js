@@ -1,3 +1,4 @@
+// jshint ignore: start
 window.printAboveTheFoldCss = function() { 
   var CSSCriticalPath = function(w, d, opts) {
     var opt = opts || {};
