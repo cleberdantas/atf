@@ -8,7 +8,7 @@ phantom.create(function(ph) {
   return ph.createPage(function(page) {
     return page.open(url, function(status) {
       console.log("opened site? ", status);         
-            page.injectJs('https://raw.githubusercontent.com/cleberdantas/atf/master/criticalCss.js', function() {
+            page.injectJs(__dirname + '/criticalCss.js', function() {
                  setTimeout(function() {
                     return page.evaluate(function() {  
 
