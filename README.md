@@ -1,6 +1,6 @@
 #  [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-url]][daviddm-image]
 
-> atf (above-the-fold) prints out above-the-fold css for whatever site you want.
+atf (above-the-fold) prints out above-the-fold css for whatever site you want.
 
 PS: Don't work yet for styles loaded under SSL ¯\_(ツ)_/¯. 
 
