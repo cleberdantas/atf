@@ -4,7 +4,7 @@ atf (above-the-fold) prints out above-the-fold css for whatever site you want.
 
 PS: Doesn't work yet for styles loaded under SSL ¯\_(ツ)_/¯. 
 
-It uses the CriticalCSS snippet from Paul Kinlan with some tiny modifications on top of PhantomJS.
+It uses the [CriticalCSS](https://gist.github.com/PaulKinlan/6284142) snippet from Paul Kinlan (Learn more about above-the-fold css [here](http://paul.kinlan.me/detecting-critical-above-the-fold-css/)) with some tiny modifications on top of PhantomJS.
 
 
 ## Install
